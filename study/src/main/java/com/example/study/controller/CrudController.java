@@ -36,4 +36,6 @@ public abstract class CrudController<Req,Res,Entity> implements CrudInterFace<Re
 	public Header delete(@PathVariable Long id) {
 		return baseService.delete(id);
 	}
+	
+	
 }
